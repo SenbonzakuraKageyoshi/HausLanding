@@ -1,0 +1,49 @@
+.about__list-item{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 44px;
+    color: #000000;
+    max-width: 358px;
+    margin-top: 21px;
+}
+
+.about__list-item-descr{
+    margin-top: 19px;
+    max-width: 381px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.section-about__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 1300px){
+    .section-about__content{
+        flex-direction: column-reverse;
+    }
+
+    .section-about__img{
+        width: 100%;
+    }
+
+    .section-about__about__list{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -15px;
+    }
+
+    .about__list-item{
+        margin-left: 15px;
+    }
+}
