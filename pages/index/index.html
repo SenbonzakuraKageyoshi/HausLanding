@@ -7,17 +7,46 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/section-top.css">
-    <link rel="stylesheet" href="../../css/section-reviews.css">
     <link rel="stylesheet" href="../../css/section-catalog.css">
+    <link rel="stylesheet" href="../../css/section-reviews.css">
     <link rel="stylesheet" href="../../css/section-main-product.css">
     <link rel="stylesheet" href="../../css/section-about.css">
+    <link rel="stylesheet" href="../../css/section-buyers-rewievs.css">
+    <link rel="stylesheet" href="../../css/section-choose.css">
+    <link rel="stylesheet" href="../../css/section-socials.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&display=swap" rel="stylesheet">
     <title>Haus</title>
 </head>
 <body>
-    <section class="section-top">
+    <div class="menu">
+        <button class="close-menu"></button>
+        <ul class="menu__list">
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">shop</a>
+            </li>
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">membership</a>
+            </li>
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">our story</a>
+            </li>
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">Newsletter</a>
+            </li>
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">Account</a>
+            </li>
+            <li class="header__nav__menu-list-item">
+                <a href="" class="header__nav__menu-list-link">Cart <span class="cart-items-value">(0)</span></a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <section class="section-top">
             <header class="section-top__header">
                 <div class="container">
                     <div class="section-top__header__content">
@@ -50,6 +79,7 @@
                                 </li>
                             </ul>
                         </nav>
+                        <button class="burger-btn"></button>
                     </div>
                 </div>
             </header>
@@ -158,5 +188,166 @@
             </div>
         </div>
     </section>
+    <section class="section-buyers-reviews">
+        <div class="container">
+            <div class="section-buyers-reviews__content">
+                <ul class="section-buyers-reviews__reviews__list">
+                    <li class="reviews__list-item">
+                        <p class="reviews__list-item-text">“Haus has found the solution I didn’t really know I was looking for!”</p>
+                        <h1 class="reviews__list-item-author">Susan</h1>
+                        <h2 class="reviews__list-item-buyer-status">verified buyer</h2>
+                    </li>
+                    <li class="reviews__list-item">
+                        <p class="reviews__list-item-text">“I love the flavor of this apéritif — it’s light and lively, and it’s refreshing with seltzer or tonic.”</p>
+                        <h1 class="reviews__list-item-author">Fiona</h1>
+                        <h2 class="reviews__list-item-buyer-status">verified buyer</h2>
+                    </li>
+                    <li class="reviews__list-item">
+                        <p class="reviews__list-item-text">“It’s delicious, and unique. I love everything from the packaging, to the flavors.”</p>
+                        <h1 class="reviews__list-item-author">Esteban</h1>
+                        <h2 class="reviews__list-item-buyer-status">verified buyer</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section-choose">
+        <div class="container">
+            <div class="section-choose__content">
+                <img src="../../assets/images/section-choose/section-choose-img.png" alt="" class="section-choose__img">
+                <div class="section-choose__text">
+                    <h1 class="section-choose-title">We do things differently than most producers</h1>
+                    <p class="section-choose-descr">Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
+                    <a href="" class="section-choose-link">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-socials">
+        <div class="container">
+            <div class="section-socials__content">
+                <div class="spotify__intro">
+                    <h1 class="spotify__intro-title">Set the mood</h1>
+                    <p class="spotify__intro-descr">Curated playlists from Woody + Helena, plus some of our friends and favorite brands.</p>
+                    <a href="" class="spotify__intro-link">Spotify</a>
+                </div>
+                <div class="section-socials__socials">
+                    <h1 class="socials-title">Follow us, share us, drink Ha(us)</h1>
+                    <ul class="socials__list">
+                        <li class="socials__list-item">
+                            <a href="" class="socials__list-link">Instagram</a>
+                        </li>
+                        <li class="socials__list-item">
+                            <a href="" class="socials__list-link">Twitter</a>
+                        </li>
+                        <li class="socials__list-item">
+                            <a href="" class="socials__list-link">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__form">
+                    <h1 class="form-title">Stay posted</h1>
+                    <p class="form-descr">Let's be friends. Subscribe to our newsletter to receive updates on new launches, recipes, playlists, and more.</p>
+                    <form action="form" class="form">
+                        <input type="text" class="form-input" placeholder="YOUR EMAIL ADDRESS">
+                        <button class="form-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+                <nav class="footer__nav">
+                    <div class="footer__nav-item">
+                        <h1 class="footer__nav-item-title">Explore</h1>
+                        <ul class="footer__nav-menu__list">
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Home</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Shop</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Membership</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Our Story</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">FAQ</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Refer a Friend</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Corporate Gifting</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Gift Card</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-item">
+                        <h1 class="footer__nav-item-title">Follow</h1>
+                        <ul class="footer__nav-menu__list">
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Instagram</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Spotify</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Twitter</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-item">
+                        <h1 class="footer__nav-item-title">Drop Us a Line</h1>
+                        <ul class="footer__nav-menu__list">
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">hello@drink.haus</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">press@drink.haus</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">Mempartnerships@drink.haus</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">jobs@drink.haus</a>
+                            </li>
+                            <li class="footer__nav-menu__list-item">
+                                <a href="" class="footer__nav-menu__list-link">wholesale@drink.haus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <div class="rights">© Haus 2021</div>
+                <ul class="footer__bottom-menu__list">
+                    <li class="footer__bottom-menu__list-item">
+                        <a href="" class="footer__bottom-menu__list-link">Contact Us</a>
+                    </li>
+                    <li class="footer__bottom-menu__list-item">
+                        <a href="" class="footer__bottom-menu__list-link">Return Policy</a>
+                    </li>
+                    <li class="footer__bottom-menu__list-item">
+                        <a href="" class="footer__bottom-menu__list-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer__bottom-menu__list-item">
+                        <a href="" class="footer__bottom-menu__list-link">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </main>
+    <script src="../../assets/js/script.js"></script>
 </body>
 </html>

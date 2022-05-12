@@ -59,9 +59,6 @@
 .catalog-list-link{
     display: inline-block;
     margin-top: 27px;
-}
-
-.catalog-list-link{
     margin-top: 45px;
     font-family: 'Roboto';
     font-style: normal;
@@ -74,6 +71,11 @@
     padding: 19px 46px;
     background: #000;
     border: none;
+    transition: 0.4s;
+}
+
+.catalog-list-link:hover{
+    transform: scale(1.1);
 }
 
 .section-catalog__catalog-list{

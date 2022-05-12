@@ -1,0 +1,32 @@
+.menu__list .header__nav__menu-list-link{
+    color: #000;
+}
+
+.menu__list .header__nav__menu-list-item{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.menu__list .header__nav__menu-list-item:first-child{
+    margin-top: 0px;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    padding: 20px;
+    display: none;
+}
+
+.close-menu{
+    background: url(../assets/images/icons/close.svg);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

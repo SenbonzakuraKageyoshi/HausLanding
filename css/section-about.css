@@ -24,6 +24,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+.section-about__content:before{
+    content: '';
+    width: 100%;
+    background: #BDBDBD;
+    height: 1px;
+    position: absolute;
+    top: -59px;
+    left: 0;
+}
+
+.section-about{
+    padding: 59px 0px 50px 0px;
 }
 
 @media(max-width: 1300px){
